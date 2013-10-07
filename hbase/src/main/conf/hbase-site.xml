@@ -24,18 +24,18 @@
 <configuration>
   <property>
     <name>hbase.rootdir</name>
-    <value>hdfs://<HBASE_MASTER_SERVER>:20001/hbase</value>
+    <value>hdfs://127.0.0.1:20001/hbase</value>
     <description>The directory shared by region servers.
     </description>
   </property>
   <property>
     <name>hbase.master</name>
-    <value><HBASE_MASTER_SERVER>:60000</value>
+    <value>127.0.0.1:60000</value>
     <description>The host and port that the HBase master runs at.
     </description>
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value><HBASE_MASTER_SERVER></value>
+    <value>127.0.0.1</value>
   </property>
 </configuration>
